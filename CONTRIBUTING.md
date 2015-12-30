@@ -3,7 +3,6 @@
 ### Code style
 
 **Two** space indent
-naming rules: use underscores to separate name (It's a leagcy style problems, so just use it continuelly).
 
 ### Modifying the code
 First, ensure that you have the latest [Node.js](http://nodejs.org/) and [npm](http://npmjs.org/) installed.
@@ -11,7 +10,7 @@ First, ensure that you have the latest [Node.js](http://nodejs.org/) and [npm](h
 Test that grunt is installed globally by running `grunt --version` at the command-line.  If grunt isn't installed globally, run `npm install -g grunt` to install the latest version. _You may need to run `sudo npm install -g grunt`._
 
 * Fork and clone the repo.
-* Run `npm install` to install all dependencies (including grunt).
+* Run `npm install` and `bower install` to install all dev dependencies (including grunt).
 * Modify the `*.coffee` file.
 * Run `grunt` to grunt this project.
 
